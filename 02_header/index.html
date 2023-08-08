@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visit Bayangol</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            list-style: none;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: sans-serif;
+        }
+        header{
+            position: relative;
+            width: 100%;
+            height: 90px;
+            display: flex;
+            justify-content: center;
+        }
+        .header_wrap{
+            position: relative;
+            display: flex;
+        }
+        .logo{
+            position: relative;
+            width: 1000px;
+            height: 100%;
+            display: flex;
+            align-items: center;
+        }
+        .logo>a>img{
+            margin-top: 10px;
+            margin-left: 30px;
+            height: 100%;
+        }
+        .menu{
+            position: relative;
+            width: 80%;
+            height: 100%;
+            display: flex;
+            justify-content: space-around;
+        }
+        .menu>ul{
+            margin-top: 5px;
+            position: relative;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .menu>ul>li{
+            font-size: 18px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        .menu>ul>li:hover{
+            border-bottom: 3px solid slategray;
+        }
+        .menu>ul>li>a{
+            color: slategray;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header_wrap">
+            <div class="logo">
+                <a href="#"><img src="./img/bayangol_logo.png" alt=""></a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Greetings</a></li>
+                    <li><a href="#">Directors</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+</body>
+</html>
